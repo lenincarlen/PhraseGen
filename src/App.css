@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.card2{
+  background-color: white;
+  padding: 30px;
+  width: min(400px, 80%);
+  border-radius: 15px;
+  box-shadow: 1px 1px 7px 0 #0009;
+  position: relative;
+}  
+.button__quotes {
+  display: block;
+  width: 80px;
+  height: 40px;
+  aspect-ratio: 1.5;
+  border-radius: 10%;
+  border: none;
+  position: relative;
+  left: 100%;
+  transform: translateX(-100%);
+  cursor: pointer;
+  box-shadow: 1px 1px 3px 0 #000a;
+}
+.button__quotes:active {
+  box-shadow: 0 0 0 0 #0000;
+  transition: box-shadow 200ms ease;
+}
+
+h2 {
+  text-align: left;
+}
+h3 {
+  text-align: center;
+}
+.card {
+  background: lightgreen;
+  width: 350px;
+  height: 150px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.bg-blue {
+  background: lightskyblue;
+}
+
+.bulb {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.gb-yellow {
+  background: yellow;
+}
+
+.gb-gray {
+  background: gray;
+}
+
